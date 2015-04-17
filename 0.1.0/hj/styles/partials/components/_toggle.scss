@@ -1,0 +1,58 @@
+.hj-toggle {
+  position: relative;
+  display: inline-block;
+  pointer-events: auto;
+  margin: -5px;
+  padding: 5px;
+}
+.hj-toggle input {
+  display: none;
+}
+.hj-toggle.toggle-positive input:checked + .track {
+  border-color: #4a87ee;
+  background-color: #4a87ee;
+}
+.hj-toggle input:checked + .track {
+  border-color: #4a87ee;
+  background-color: #4a87ee;
+}
+.hj-toggle .track {
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: background-color, border;
+  -moz-transition-property: background-color, border;
+  transition-property: background-color, border;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 54px;
+  height: 32px;
+  border: solid 2px #E5E5E5;
+  border-radius: 20px;
+  background-color: #E5E5E5;
+  content: ' ';
+  cursor: pointer;
+  pointer-events: none;
+}
+.hj-toggle input:checked + .track .handle {
+  -webkit-transform: translate3d(22px, 0, 0);
+  -moz-transform: translate3d(22px, 0, 0);
+  transform: translate3d(22px, 0, 0);
+  background-color: #fff;
+}
+.hj-toggle .handle {
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  position: absolute;
+  display: block;
+  width: 28px;
+  height: 28px;
+  border-radius: 28px;
+  background-color: #fff;
+  top: 7px;
+  left: 7px;
+}

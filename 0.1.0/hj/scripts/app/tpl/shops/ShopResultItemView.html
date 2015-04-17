@@ -1,0 +1,36 @@
+<ul class="table-view">
+    <% _.each(content, function(childItem,index) { %>
+    <li class="table-view-cell media hj-shoplist-item" data-id="<%=childItem.shopId %>">
+        <div class="hj-shoplist-item-name">
+            <%= childItem.name %>
+        </div>
+        <a class="navigate-right hj-shoplist-item-body">
+            <img class="media-object pull-left" src="<%= childItem.thumbnailImage %>">
+
+            <div class="media-body">
+                <% for(var i=1;i<=childItem.score;i++) { %>
+                <span class="icon icon-star-filled hj-shoplist-item-body-score assertive"></span>
+                <% };%>
+                <% for(var i=5;i>childItem.score;i--) { %>
+                <span class="icon icon-star hj-shoplist-item-body-score"></span>
+                <% };%>
+                <%if(childItem.specialSkill === null){%>
+                <div class="hj-shoplist-item-body-specil">
+                    <span class="hj-shoplist-item-icon-zong"></span>综合服务
+                </div>
+                <%}else{%>
+                <div>
+                    <span class="hj-shoplist-item-icon-zuan"></span><%= childItem.specialSkill %>
+                </div>
+                <%}%>
+                <div>成交 <%= childItem.saleAmount %> 笔</div>
+            </div>
+        </a>
+    </li>
+    <% });%>
+    <%if(lastPage === false){%>
+    <div class="hj-shoplist-loadmore">
+        加载更多......
+    </div>
+    <% };%>
+</ul>

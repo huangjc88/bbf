@@ -1,0 +1,7 @@
+<div class="row-down hj-area-init-a">
+    <% _.each(this.model.attributes, function(childItem) { %>
+    <a class="col-20" data-id="<%= childItem.initial %>">
+        <%= childItem.initial %>
+    </a><% });
+    %>
+</div>

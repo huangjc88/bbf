@@ -1,0 +1,1749 @@
+{
+    "project": {},
+    "files": {
+        "app/adapters/my/user-adapter.js": {
+            "name": "app/adapters/my/user-adapter.js",
+            "modules": {},
+            "classes": {
+                "userAdapter": 1
+            },
+            "fors": {
+                "userAdapter": 1
+            },
+            "namespaces": {}
+        },
+        "app/adapters/shop/shop-adapter.js": {
+            "name": "app/adapters/shop/shop-adapter.js",
+            "modules": {},
+            "classes": {
+                "shopAdapter": 1
+            },
+            "fors": {
+                "shopAdapter": 1
+            },
+            "namespaces": {}
+        },
+        "app/adapters/shopdetail/shop-detail-adapter.js": {
+            "name": "app/adapters/shopdetail/shop-detail-adapter.js",
+            "modules": {},
+            "classes": {
+                "shopDetailAdapter": 1
+            },
+            "fors": {
+                "shopDetailAdapter": 1
+            },
+            "namespaces": {}
+        },
+        "app/adapters/adverst-adapter.js": {
+            "name": "app/adapters/adverst-adapter.js",
+            "modules": {},
+            "classes": {
+                "adverstAdapter": 1
+            },
+            "fors": {
+                "adverstAdapter": 1
+            },
+            "namespaces": {}
+        },
+        "app/adapters/area-adapter.js": {
+            "name": "app/adapters/area-adapter.js",
+            "modules": {},
+            "classes": {
+                "areaAdapter": 1
+            },
+            "fors": {
+                "areaAdapter": 1
+            },
+            "namespaces": {}
+        },
+        "app/common/components/al_notifications.js": {
+            "name": "app/common/components/al_notifications.js",
+            "modules": {},
+            "classes": {
+                "al_notifications": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/common/components/carousel.js": {
+            "name": "app/common/components/carousel.js",
+            "modules": {},
+            "classes": {
+                "Carousel": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/common/datepicker/mobiscroll.core.js": {
+            "name": "app/common/datepicker/mobiscroll.core.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/common/datepicker/mobiscroll.datetime.js": {
+            "name": "app/common/datepicker/mobiscroll.datetime.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/common/hammer/jquery.hammer.js": {
+            "name": "app/common/hammer/jquery.hammer.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/common/http/getApi.js": {
+            "name": "app/common/http/getApi.js",
+            "modules": {},
+            "classes": {
+                "getApi": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/login/LoginModel.js": {
+            "name": "app/models/login/LoginModel.js",
+            "modules": {},
+            "classes": {
+                "loginModel": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/my/UserInfoModel.js": {
+            "name": "app/models/my/UserInfoModel.js",
+            "modules": {},
+            "classes": {
+                "userModel": 1,
+                "userInfoCollection": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/shop/ShopModel.js": {
+            "name": "app/models/shop/ShopModel.js",
+            "modules": {},
+            "classes": {
+                "ShopModel": 1,
+                "ShopInitCollection": 1,
+                "ShopResultModel": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/shopdetail/ShopDetailModel.js": {
+            "name": "app/models/shopdetail/ShopDetailModel.js",
+            "modules": {},
+            "classes": {
+                "ShopDetailModel": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/AdverstModel.js": {
+            "name": "app/models/AdverstModel.js",
+            "modules": {},
+            "classes": {
+                "AdverstModel": 1,
+                "AdverstCollection": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/models/AreaModel.js": {
+            "name": "app/models/AreaModel.js",
+            "modules": {},
+            "classes": {
+                "AreaModel": 1,
+                "AreaCollection": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/routers/AppAreaRouter.js": {
+            "name": "app/routers/AppAreaRouter.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/routers/AppMyRouter.js": {
+            "name": "app/routers/AppMyRouter.js",
+            "modules": {},
+            "classes": {
+                "AppRouter": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/routers/AppRouter.js": {
+            "name": "app/routers/AppRouter.js",
+            "modules": {},
+            "classes": {
+                "AppHomeRouter": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/routers/AppShopDetailRouter.js": {
+            "name": "app/routers/AppShopDetailRouter.js",
+            "modules": {},
+            "classes": {
+                "AppShopDetailRouter": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/routers/AppShopListRouter.js": {
+            "name": "app/routers/AppShopListRouter.js",
+            "modules": {},
+            "classes": {
+                "AppShopListRouter": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/views/area/AreaInitView.js": {
+            "name": "app/views/area/AreaInitView.js",
+            "modules": {
+                "area": 1
+            },
+            "classes": {
+                "AreaInitView": 1,
+                "AreaInitItemView": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/views/area/AreaListView.js": {
+            "name": "app/views/area/AreaListView.js",
+            "modules": {},
+            "classes": {
+                "AreaListView": 1,
+                "AreaListItemView": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/views/area/AreaView.js": {
+            "name": "app/views/area/AreaView.js",
+            "modules": {},
+            "classes": {
+                "AreaView": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/views/login/LoginView.js": {
+            "name": "app/views/login/LoginView.js",
+            "modules": {},
+            "classes": {
+                "LoginView": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/views/my/MyView.js": {
+            "name": "app/views/my/MyView.js",
+            "modules": {
+                "my": 1
+            },
+            "classes": {
+                "MyView": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/views/shopDetail/ShopDetailView.js": {
+            "name": "app/views/shopDetail/ShopDetailView.js",
+            "modules": {
+                "shopDetail": 1
+            },
+            "classes": {
+                "ShopDetailView": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/views/shopDetail/ShopServerView.js": {
+            "name": "app/views/shopDetail/ShopServerView.js",
+            "modules": {},
+            "classes": {
+                "ShopServerView": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/views/shops/ShopInitView.js": {
+            "name": "app/views/shops/ShopInitView.js",
+            "modules": {
+                "shopList": 1
+            },
+            "classes": {
+                "ShopInitView": 1,
+                "ShopInitItemView": 1,
+                "ShopInitDownView": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/views/shops/ShopListView.js": {
+            "name": "app/views/shops/ShopListView.js",
+            "modules": {},
+            "classes": {
+                "ShopListView": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/views/shops/ShopResultView.js": {
+            "name": "app/views/shops/ShopResultView.js",
+            "modules": {},
+            "classes": {
+                "ShopResultView": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/views/BaseView.js": {
+            "name": "app/views/BaseView.js",
+            "modules": {
+                "common": 1
+            },
+            "classes": {
+                "BaseView": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/views/HomeView.js": {
+            "name": "app/views/HomeView.js",
+            "modules": {
+                "home": 1
+            },
+            "classes": {
+                "HomeView": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/app.js": {
+            "name": "app/app.js",
+            "modules": {
+                "appconstant": 1
+            },
+            "classes": {
+                "app": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/main5.js": {
+            "name": "app/main5.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "my": {
+            "name": "my",
+            "submodules": {},
+            "classes": {
+                "userAdapter": 1,
+                "userModel": 1,
+                "userInfoCollection": 1,
+                "AppRouter": 1,
+                "MyView": 1
+            },
+            "fors": {
+                "userAdapter": 1
+            },
+            "namespaces": {},
+            "tag": "module",
+            "file": "app/views/my/MyView.js",
+            "line": 9
+        },
+        "shopList": {
+            "name": "shopList",
+            "submodules": {},
+            "classes": {
+                "shopAdapter": 1,
+                "ShopModel": 1,
+                "ShopInitCollection": 1,
+                "ShopResultModel": 1,
+                "AppShopListRouter": 1,
+                "ShopInitView": 1,
+                "ShopInitItemView": 1,
+                "ShopInitDownView": 1,
+                "ShopListView": 1,
+                "ShopResultView": 1
+            },
+            "fors": {
+                "shopAdapter": 1
+            },
+            "namespaces": {},
+            "tag": "module",
+            "file": "app/views/shops/ShopResultView.js",
+            "line": 9
+        },
+        "shopDetail": {
+            "name": "shopDetail",
+            "submodules": {},
+            "classes": {
+                "shopDetailAdapter": 1,
+                "ShopDetailModel": 1,
+                "AppShopDetailRouter": 1,
+                "ShopDetailView": 1,
+                "ShopServerView": 1
+            },
+            "fors": {
+                "shopDetailAdapter": 1
+            },
+            "namespaces": {},
+            "tag": "module",
+            "file": "app/views/shopDetail/ShopServerView.js",
+            "line": 9
+        },
+        "home": {
+            "name": "home",
+            "submodules": {},
+            "classes": {
+                "adverstAdapter": 1,
+                "AdverstModel": 1,
+                "AdverstCollection": 1,
+                "AppHomeRouter": 1,
+                "HomeView": 1
+            },
+            "fors": {
+                "adverstAdapter": 1
+            },
+            "namespaces": {},
+            "tag": "module",
+            "file": "app/views/HomeView.js",
+            "line": 9
+        },
+        "area": {
+            "name": "area",
+            "submodules": {},
+            "classes": {
+                "areaAdapter": 1,
+                "AreaModel": 1,
+                "AreaCollection": 1,
+                "AreaInitView": 1,
+                "AreaInitItemView": 1,
+                "AreaListView": 1,
+                "AreaListItemView": 1,
+                "AreaView": 1
+            },
+            "fors": {
+                "areaAdapter": 1
+            },
+            "namespaces": {},
+            "tag": "module",
+            "file": "app/views/area/AreaView.js",
+            "line": 10
+        },
+        "common": {
+            "name": "common",
+            "submodules": {},
+            "classes": {
+                "al_notifications": 1,
+                "Carousel": 1,
+                "getApi": 1,
+                "loginModel": 1,
+                "LoginView": 1,
+                "BaseView": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "app/views/BaseView.js",
+            "line": 8,
+            "is_constructor": 1
+        },
+        "appconstant": {
+            "name": "appconstant",
+            "submodules": {},
+            "classes": {
+                "app": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "app/app.js",
+            "line": 1
+        }
+    },
+    "classes": {
+        "userAdapter": {
+            "name": "userAdapter",
+            "shortname": "userAdapter",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "my",
+            "namespace": "",
+            "file": "app/adapters/my/user-adapter.js",
+            "line": 6
+        },
+        "shopAdapter": {
+            "name": "shopAdapter",
+            "shortname": "shopAdapter",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "shopList",
+            "namespace": "",
+            "file": "app/adapters/shop/shop-adapter.js",
+            "line": 6
+        },
+        "shopDetailAdapter": {
+            "name": "shopDetailAdapter",
+            "shortname": "shopDetailAdapter",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "shopDetail",
+            "namespace": "",
+            "file": "app/adapters/shopdetail/shop-detail-adapter.js",
+            "line": 6
+        },
+        "adverstAdapter": {
+            "name": "adverstAdapter",
+            "shortname": "adverstAdapter",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "home",
+            "namespace": "",
+            "file": "app/adapters/adverst-adapter.js",
+            "line": 6
+        },
+        "areaAdapter": {
+            "name": "areaAdapter",
+            "shortname": "areaAdapter",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "area",
+            "namespace": "",
+            "file": "app/adapters/area-adapter.js",
+            "line": 6
+        },
+        "al_notifications": {
+            "name": "al_notifications",
+            "shortname": "al_notifications",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "common",
+            "namespace": "",
+            "file": "app/common/components/al_notifications.js",
+            "line": 7
+        },
+        "Carousel": {
+            "name": "Carousel",
+            "shortname": "Carousel",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "common",
+            "namespace": "",
+            "file": "app/common/components/carousel.js",
+            "line": 4
+        },
+        "getApi": {
+            "name": "getApi",
+            "shortname": "getApi",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "common",
+            "namespace": "",
+            "file": "app/common/http/getApi.js",
+            "line": 6
+        },
+        "loginModel": {
+            "name": "loginModel",
+            "shortname": "loginModel",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "common",
+            "namespace": "",
+            "file": "app/models/login/LoginModel.js",
+            "line": 8,
+            "is_constructor": 1
+        },
+        "userModel": {
+            "name": "userModel",
+            "shortname": "userModel",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "my",
+            "namespace": "",
+            "file": "app/models/my/UserInfoModel.js",
+            "line": 8,
+            "is_constructor": 1
+        },
+        "userInfoCollection": {
+            "name": "userInfoCollection",
+            "shortname": "userInfoCollection",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "my",
+            "namespace": "",
+            "file": "app/models/my/UserInfoModel.js",
+            "line": 26,
+            "is_constructor": 1
+        },
+        "ShopModel": {
+            "name": "ShopModel",
+            "shortname": "ShopModel",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "shopList",
+            "namespace": "",
+            "file": "app/models/shop/ShopModel.js",
+            "line": 8,
+            "is_constructor": 1
+        },
+        "ShopInitCollection": {
+            "name": "ShopInitCollection",
+            "shortname": "ShopInitCollection",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "shopList",
+            "namespace": "",
+            "file": "app/models/shop/ShopModel.js",
+            "line": 22,
+            "is_constructor": 1
+        },
+        "ShopResultModel": {
+            "name": "ShopResultModel",
+            "shortname": "ShopResultModel",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "shopList",
+            "namespace": "",
+            "file": "app/models/shop/ShopModel.js",
+            "line": 36,
+            "is_constructor": 1
+        },
+        "ShopDetailModel": {
+            "name": "ShopDetailModel",
+            "shortname": "ShopDetailModel",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "shopDetail",
+            "namespace": "",
+            "file": "app/models/shopdetail/ShopDetailModel.js",
+            "line": 8,
+            "is_constructor": 1
+        },
+        "AdverstModel": {
+            "name": "AdverstModel",
+            "shortname": "AdverstModel",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "home",
+            "namespace": "",
+            "file": "app/models/AdverstModel.js",
+            "line": 8,
+            "is_constructor": 1
+        },
+        "AdverstCollection": {
+            "name": "AdverstCollection",
+            "shortname": "AdverstCollection",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "home",
+            "namespace": "",
+            "file": "app/models/AdverstModel.js",
+            "line": 25,
+            "is_constructor": 1
+        },
+        "AreaModel": {
+            "name": "AreaModel",
+            "shortname": "AreaModel",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "area",
+            "namespace": "",
+            "file": "app/models/AreaModel.js",
+            "line": 8,
+            "is_constructor": 1
+        },
+        "AreaCollection": {
+            "name": "AreaCollection",
+            "shortname": "AreaCollection",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "area",
+            "namespace": "",
+            "file": "app/models/AreaModel.js",
+            "line": 30,
+            "is_constructor": 1
+        },
+        "AppRouter": {
+            "name": "AppRouter",
+            "shortname": "AppRouter",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "my",
+            "namespace": "",
+            "file": "app/routers/AppMyRouter.js",
+            "line": 13,
+            "is_constructor": 1
+        },
+        "AppHomeRouter": {
+            "name": "AppHomeRouter",
+            "shortname": "AppHomeRouter",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "home",
+            "namespace": "",
+            "file": "app/routers/AppRouter.js",
+            "line": 13,
+            "is_constructor": 1
+        },
+        "AppShopDetailRouter": {
+            "name": "AppShopDetailRouter",
+            "shortname": "AppShopDetailRouter",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "shopDetail",
+            "namespace": "",
+            "file": "app/routers/AppShopDetailRouter.js",
+            "line": 11,
+            "is_constructor": 1
+        },
+        "AppShopListRouter": {
+            "name": "AppShopListRouter",
+            "shortname": "AppShopListRouter",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "shopList",
+            "namespace": "",
+            "file": "app/routers/AppShopListRouter.js",
+            "line": 12,
+            "is_constructor": 1
+        },
+        "AreaInitView": {
+            "name": "AreaInitView",
+            "shortname": "AreaInitView",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "area",
+            "namespace": "",
+            "file": "app/views/area/AreaInitView.js",
+            "line": 9,
+            "is_constructor": 1
+        },
+        "AreaInitItemView": {
+            "name": "AreaInitItemView",
+            "shortname": "AreaInitItemView",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "area",
+            "namespace": "",
+            "file": "app/views/area/AreaInitView.js",
+            "line": 35,
+            "is_constructor": 1
+        },
+        "AreaListView": {
+            "name": "AreaListView",
+            "shortname": "AreaListView",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "area",
+            "namespace": "",
+            "file": "app/views/area/AreaListView.js",
+            "line": 9,
+            "is_constructor": 1
+        },
+        "AreaListItemView": {
+            "name": "AreaListItemView",
+            "shortname": "AreaListItemView",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "area",
+            "namespace": "",
+            "file": "app/views/area/AreaListView.js",
+            "line": 33,
+            "is_constructor": 1
+        },
+        "AreaView": {
+            "name": "AreaView",
+            "shortname": "AreaView",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "area",
+            "namespace": "",
+            "file": "app/views/area/AreaView.js",
+            "line": 10,
+            "is_constructor": 1
+        },
+        "LoginView": {
+            "name": "LoginView",
+            "shortname": "LoginView",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "common",
+            "namespace": "",
+            "file": "app/views/login/LoginView.js",
+            "line": 8,
+            "is_constructor": 1
+        },
+        "MyView": {
+            "name": "MyView",
+            "shortname": "MyView",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "my",
+            "namespace": "",
+            "file": "app/views/my/MyView.js",
+            "line": 9,
+            "is_constructor": 1
+        },
+        "ShopDetailView": {
+            "name": "ShopDetailView",
+            "shortname": "ShopDetailView",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "shopDetail",
+            "namespace": "",
+            "file": "app/views/shopDetail/ShopDetailView.js",
+            "line": 10,
+            "is_constructor": 1
+        },
+        "ShopServerView": {
+            "name": "ShopServerView",
+            "shortname": "ShopServerView",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "shopDetail",
+            "namespace": "",
+            "file": "app/views/shopDetail/ShopServerView.js",
+            "line": 9,
+            "is_constructor": 1
+        },
+        "ShopInitView": {
+            "name": "ShopInitView",
+            "shortname": "ShopInitView",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "shopList",
+            "namespace": "",
+            "file": "app/views/shops/ShopInitView.js",
+            "line": 9,
+            "is_constructor": 1
+        },
+        "ShopInitItemView": {
+            "name": "ShopInitItemView",
+            "shortname": "ShopInitItemView",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "shopList",
+            "namespace": "",
+            "file": "app/views/shops/ShopInitView.js",
+            "line": 49,
+            "is_constructor": 1
+        },
+        "ShopInitDownView": {
+            "name": "ShopInitDownView",
+            "shortname": "ShopInitDownView",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "shopList",
+            "namespace": "",
+            "file": "app/views/shops/ShopInitView.js",
+            "line": 98,
+            "is_constructor": 1
+        },
+        "ShopListView": {
+            "name": "ShopListView",
+            "shortname": "ShopListView",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "shopList",
+            "namespace": "",
+            "file": "app/views/shops/ShopListView.js",
+            "line": 10,
+            "is_constructor": 1
+        },
+        "ShopResultView": {
+            "name": "ShopResultView",
+            "shortname": "ShopResultView",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "shopList",
+            "namespace": "",
+            "file": "app/views/shops/ShopResultView.js",
+            "line": 9,
+            "is_constructor": 1
+        },
+        "BaseView": {
+            "name": "BaseView",
+            "shortname": "BaseView",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "common",
+            "namespace": "",
+            "file": "app/views/BaseView.js",
+            "line": 8,
+            "is_constructor": 1
+        },
+        "HomeView": {
+            "name": "HomeView",
+            "shortname": "HomeView",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "home",
+            "namespace": "",
+            "file": "app/views/HomeView.js",
+            "line": 9,
+            "extends": "baseView"
+        },
+        "app": {
+            "name": "app",
+            "shortname": "app",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "appconstant",
+            "namespace": "",
+            "file": "app/app.js",
+            "line": 1
+        }
+    },
+    "classitems": [
+        {
+            "file": "app/adapters/my/user-adapter.js",
+            "line": 10,
+            "itemtype": "method",
+            "name": "getUserInfo",
+            "example": [
+                " userAdapter.getUserInfo()"
+            ],
+            "class": "userAdapter",
+            "module": "my"
+        },
+        {
+            "file": "app/adapters/shop/shop-adapter.js",
+            "line": 10,
+            "itemtype": "method",
+            "name": "getShopInits",
+            "example": [
+                " shopAdapter.getShopInits()"
+            ],
+            "class": "shopAdapter",
+            "module": "shopList"
+        },
+        {
+            "file": "app/adapters/shopdetail/shop-detail-adapter.js",
+            "line": 10,
+            "itemtype": "method",
+            "name": "getDetail",
+            "example": [
+                " shopDetailAdapter.getDetail()"
+            ],
+            "class": "shopDetailAdapter",
+            "module": "shopDetail"
+        },
+        {
+            "file": "app/adapters/adverst-adapter.js",
+            "line": 10,
+            "itemtype": "method",
+            "name": "getAdversts",
+            "example": [
+                " adverstAdapter.getAdversts()"
+            ],
+            "class": "adverstAdapter",
+            "module": "home"
+        },
+        {
+            "file": "app/adapters/area-adapter.js",
+            "line": 10,
+            "itemtype": "method",
+            "name": "getAreas",
+            "example": [
+                " areaAdapter.getAreas()"
+            ],
+            "class": "areaAdapter",
+            "module": "area"
+        },
+        {
+            "file": "app/common/components/al_notifications.js",
+            "line": 10,
+            "itemtype": "method",
+            "name": "al_notifications",
+            "params": [
+                {
+                    "name": "msg",
+                    "description": "内容",
+                    "type": "String"
+                },
+                {
+                    "name": "type",
+                    "description": "类型",
+                    "type": "String"
+                }
+            ],
+            "class": "al_notifications",
+            "module": "common"
+        },
+        {
+            "file": "app/common/components/carousel.js",
+            "line": 33,
+            "itemtype": "method",
+            "name": "render",
+            "class": "Carousel",
+            "module": "common"
+        },
+        {
+            "file": "app/common/components/carousel.js",
+            "line": 42,
+            "itemtype": "method",
+            "name": "appendView",
+            "params": [
+                {
+                    "name": "view",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "goToIt",
+                    "description": "",
+                    "type": "Boolean"
+                }
+            ],
+            "class": "Carousel",
+            "module": "common"
+        },
+        {
+            "file": "app/common/components/carousel.js",
+            "line": 63,
+            "itemtype": "method",
+            "name": "prependView",
+            "params": [
+                {
+                    "name": "view",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "goToIt",
+                    "description": "",
+                    "type": "Boolean"
+                }
+            ],
+            "class": "Carousel",
+            "module": "common"
+        },
+        {
+            "file": "app/common/datepicker/mobiscroll.core.js",
+            "line": 142,
+            "description": "Enables the scroller and the associated input.",
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/datepicker/mobiscroll.core.js",
+            "line": 151,
+            "description": "Disables the scroller and the associated input.",
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/datepicker/mobiscroll.core.js",
+            "line": 160,
+            "description": "Scrolls target to the specified position",
+            "params": [
+                {
+                    "name": "t",
+                    "description": "- Target wheel jQuery object.",
+                    "type": "Object"
+                },
+                {
+                    "name": "val",
+                    "description": "- Value.",
+                    "type": "Number"
+                },
+                {
+                    "name": "time",
+                    "description": "- Duration of the animation, optional.",
+                    "type": "Number",
+                    "optional": true
+                }
+            ],
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/datepicker/mobiscroll.core.js",
+            "line": 196,
+            "description": "Gets the selected wheel values, formats it, and set the value of the scroller instance.\nIf input parameter is true, populates the associated input element.",
+            "params": [
+                {
+                    "name": "fill",
+                    "description": "- Also set the value of the associated input element. Default is true.",
+                    "type": "Boolean",
+                    "optional": true
+                }
+            ],
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/datepicker/mobiscroll.core.js",
+            "line": 209,
+            "description": "Checks if the current selected values are valid together.\nIn case of date presets it checks the number of days in a month.",
+            "params": [
+                {
+                    "name": "i",
+                    "description": "- Currently changed wheel index, -1 if initial validation.",
+                    "type": "Integer"
+                }
+            ],
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/datepicker/mobiscroll.core.js",
+            "line": 218,
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/datepicker/mobiscroll.core.js",
+            "line": 231,
+            "description": "Hides the scroller instance.",
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/datepicker/mobiscroll.core.js",
+            "line": 248,
+            "description": "Shows the scroller instance.",
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/datepicker/mobiscroll.core.js",
+            "line": 365,
+            "description": "Scroller initialization.",
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/datepicker/mobiscroll.core.js",
+            "line": 672,
+            "description": "Set settings for all instances.",
+            "params": [
+                {
+                    "name": "o",
+                    "description": "- New default settings.",
+                    "type": "Object"
+                }
+            ],
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/datepicker/mobiscroll.datetime.js",
+            "line": 223,
+            "description": "Builds a date object from the wheel selections and formats it to the given date/time format",
+            "params": [
+                {
+                    "name": "d",
+                    "description": "- An array containing the selected wheel values",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "- The formatted date string",
+                "type": "String"
+            },
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/datepicker/mobiscroll.datetime.js",
+            "line": 231,
+            "description": "Builds a date object from the input value and returns an array to set wheel values",
+            "return": {
+                "description": "- An array containing the wheel values to set",
+                "type": "Array"
+            },
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/datepicker/mobiscroll.datetime.js",
+            "line": 248,
+            "description": "Validates the selected date to be in the minDate / maxDate range and sets unselectable values to disabled",
+            "params": [
+                {
+                    "name": "dw",
+                    "description": "- jQuery object containing the generated html",
+                    "type": "Object"
+                },
+                {
+                    "name": "i",
+                    "description": "- Index of the changed wheel, not set for initial validation",
+                    "type": "Integer",
+                    "optional": true
+                }
+            ],
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/datepicker/mobiscroll.datetime.js",
+            "line": 343,
+            "description": "Returns the currently selected date.",
+            "params": [
+                {
+                    "name": "temp",
+                    "description": "- If true, return the currently shown date on the picker, otherwise the last selected one",
+                    "type": "Boolean"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Date"
+            },
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/datepicker/mobiscroll.datetime.js",
+            "line": 354,
+            "description": "Sets the selected date",
+            "params": [
+                {
+                    "name": "d",
+                    "description": "- Date to select.",
+                    "type": "Date"
+                },
+                {
+                    "name": "fill",
+                    "description": "- Also set the value of the associated input element. Default is true.",
+                    "type": "Boolean",
+                    "optional": true
+                }
+            ],
+            "return": {
+                "description": "- jQuery object to maintain chainability",
+                "type": "Object"
+            },
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/datepicker/mobiscroll.datetime.js",
+            "line": 376,
+            "description": "Format a date into a string value with a specified format.",
+            "params": [
+                {
+                    "name": "format",
+                    "description": "- Output format.",
+                    "type": "String"
+                },
+                {
+                    "name": "date",
+                    "description": "- Date to format.",
+                    "type": "Date"
+                },
+                {
+                    "name": "settings",
+                    "description": "- Settings.",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "- Returns the formatted date string.",
+                "type": "String"
+            },
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/datepicker/mobiscroll.datetime.js",
+            "line": 465,
+            "description": "Extract a date from a string value with a specified format.",
+            "params": [
+                {
+                    "name": "format",
+                    "description": "- Input format.",
+                    "type": "String"
+                },
+                {
+                    "name": "value",
+                    "description": "- String to parse.",
+                    "type": "String"
+                },
+                {
+                    "name": "settings",
+                    "description": "- Settings.",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "- Returns the extracted date.",
+                "type": "Date"
+            },
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/hammer/jquery.hammer.js",
+            "line": 15,
+            "description": "bind dom events\nthis overwrites addEventListener",
+            "params": [
+                {
+                    "name": "element",
+                    "description": "",
+                    "type": "HTMLElement"
+                },
+                {
+                    "name": "eventTypes",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "handler",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/hammer/jquery.hammer.js",
+            "line": 56,
+            "description": "the methods are called by the instance, but with the jquery plugin\nwe use the jquery event methods instead.",
+            "this": "{Hammer.Instance}",
+            "return": {
+                "description": "",
+                "type": "JQuery"
+            },
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/hammer/jquery.hammer.js",
+            "line": 70,
+            "description": "trigger events\nthis is called by the gestures to trigger an event like 'tap'",
+            "this": "{Hammer.Instance}",
+            "params": [
+                {
+                    "name": "gesture",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "eventData",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "JQuery"
+            },
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/hammer/jquery.hammer.js",
+            "line": 91,
+            "description": "jQuery plugin\ncreate instance of Hammer and watch for gestures,\nand when called again you can change the options",
+            "params": [
+                {
+                    "name": "options",
+                    "description": "",
+                    "type": "Object",
+                    "optional": true,
+                    "optdefault": "{}"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "JQuery"
+            },
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/common/http/getApi.js",
+            "line": 9,
+            "itemtype": "method",
+            "name": "getApi",
+            "params": [
+                {
+                    "name": "url",
+                    "description": "请求地址",
+                    "type": "String"
+                },
+                {
+                    "name": "method",
+                    "description": "请求方法--POST/PUT/GET/DELETE",
+                    "type": "String"
+                },
+                {
+                    "name": "data",
+                    "description": "请求参数",
+                    "type": "Json"
+                },
+                {
+                    "name": "errorCallback",
+                    "description": "错误回调函数",
+                    "type": "Function"
+                }
+            ],
+            "class": "getApi",
+            "module": "common"
+        },
+        {
+            "file": "app/routers/AppAreaRouter.js",
+            "line": 23,
+            "itemtype": "method",
+            "name": "area",
+            "class": "AppRouter",
+            "module": "area"
+        },
+        {
+            "file": "app/routers/AppMyRouter.js",
+            "line": 26,
+            "itemtype": "method",
+            "name": "my",
+            "class": "AppRouter",
+            "module": "my"
+        },
+        {
+            "file": "app/routers/AppRouter.js",
+            "line": 27,
+            "itemtype": "method",
+            "name": "homeByCity",
+            "class": "AppHomeRouter",
+            "module": "home"
+        },
+        {
+            "file": "app/routers/AppRouter.js",
+            "line": 42,
+            "itemtype": "method",
+            "name": "home",
+            "class": "AppHomeRouter",
+            "module": "home"
+        },
+        {
+            "file": "app/routers/AppShopDetailRouter.js",
+            "line": 24,
+            "itemtype": "method",
+            "name": "shopDetail",
+            "class": "AppShopDetailRouter",
+            "module": "shopDetail"
+        },
+        {
+            "file": "app/routers/AppShopDetailRouter.js",
+            "line": 39,
+            "itemtype": "method",
+            "name": "shopServer",
+            "params": [
+                {
+                    "name": "shopId",
+                    "description": "商户ID",
+                    "type": "String"
+                }
+            ],
+            "class": "AppShopDetailRouter",
+            "module": "shopDetail"
+        },
+        {
+            "file": "app/routers/AppShopListRouter.js",
+            "line": 23,
+            "itemtype": "method",
+            "name": "shoplist",
+            "class": "AppShopListRouter",
+            "module": "shopList"
+        },
+        {
+            "file": "app/views/shops/ShopResultView.js",
+            "line": 14,
+            "itemtype": "property",
+            "name": "tagName",
+            "type": "String",
+            "default": "\"div\"",
+            "class": "ShopResultView",
+            "module": "shopList"
+        },
+        {
+            "file": "app/app.js",
+            "line": 17,
+            "itemtype": "method",
+            "name": "getList",
+            "static": 1,
+            "class": "app",
+            "module": "appconstant"
+        },
+        {
+            "file": "app/app.js",
+            "line": 27,
+            "itemtype": "method",
+            "name": "slider",
+            "static": 1,
+            "class": "app",
+            "module": "appconstant"
+        },
+        {
+            "file": "app/app.js",
+            "line": 32,
+            "itemtype": "method",
+            "name": "root",
+            "static": 1,
+            "class": "app",
+            "module": "appconstant"
+        },
+        {
+            "file": "app/app.js",
+            "line": 44,
+            "itemtype": "method",
+            "name": "TestModel",
+            "extends": "Backbone.Model",
+            "class": "app",
+            "module": "appconstant"
+        },
+        {
+            "file": "app/app.js",
+            "line": 49,
+            "itemtype": "method",
+            "name": "loginView",
+            "static": 1,
+            "class": "app",
+            "module": "appconstant"
+        },
+        {
+            "file": "app/main5.js",
+            "line": 1,
+            "description": "Created by shanglei on 15/3/18.",
+            "class": "",
+            "module": "appconstant"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "unknown tag: this",
+            "line": " app/common/hammer/jquery.hammer.js:56"
+        },
+        {
+            "message": "unknown tag: this",
+            "line": " app/common/hammer/jquery.hammer.js:70"
+        },
+        {
+            "message": "Missing item type\nEnables the scroller and the associated input.",
+            "line": " app/common/datepicker/mobiscroll.core.js:142"
+        },
+        {
+            "message": "Missing item type\nDisables the scroller and the associated input.",
+            "line": " app/common/datepicker/mobiscroll.core.js:151"
+        },
+        {
+            "message": "Missing item type\nScrolls target to the specified position",
+            "line": " app/common/datepicker/mobiscroll.core.js:160"
+        },
+        {
+            "message": "Missing item type\nGets the selected wheel values, formats it, and set the value of the scroller instance.\nIf input parameter is true, populates the associated input element.",
+            "line": " app/common/datepicker/mobiscroll.core.js:196"
+        },
+        {
+            "message": "Missing item type\nChecks if the current selected values are valid together.\nIn case of date presets it checks the number of days in a month.",
+            "line": " app/common/datepicker/mobiscroll.core.js:209"
+        },
+        {
+            "message": "Missing item type",
+            "line": " app/common/datepicker/mobiscroll.core.js:218"
+        },
+        {
+            "message": "Missing item type\nHides the scroller instance.",
+            "line": " app/common/datepicker/mobiscroll.core.js:231"
+        },
+        {
+            "message": "Missing item type\nShows the scroller instance.",
+            "line": " app/common/datepicker/mobiscroll.core.js:248"
+        },
+        {
+            "message": "Missing item type\nScroller initialization.",
+            "line": " app/common/datepicker/mobiscroll.core.js:365"
+        },
+        {
+            "message": "Missing item type\nSet settings for all instances.",
+            "line": " app/common/datepicker/mobiscroll.core.js:672"
+        },
+        {
+            "message": "Missing item type\nBuilds a date object from the wheel selections and formats it to the given date/time format",
+            "line": " app/common/datepicker/mobiscroll.datetime.js:223"
+        },
+        {
+            "message": "Missing item type\nBuilds a date object from the input value and returns an array to set wheel values",
+            "line": " app/common/datepicker/mobiscroll.datetime.js:231"
+        },
+        {
+            "message": "Missing item type\nValidates the selected date to be in the minDate / maxDate range and sets unselectable values to disabled",
+            "line": " app/common/datepicker/mobiscroll.datetime.js:248"
+        },
+        {
+            "message": "Missing item type\nReturns the currently selected date.",
+            "line": " app/common/datepicker/mobiscroll.datetime.js:343"
+        },
+        {
+            "message": "Missing item type\nSets the selected date",
+            "line": " app/common/datepicker/mobiscroll.datetime.js:354"
+        },
+        {
+            "message": "Missing item type\nFormat a date into a string value with a specified format.",
+            "line": " app/common/datepicker/mobiscroll.datetime.js:376"
+        },
+        {
+            "message": "Missing item type\nExtract a date from a string value with a specified format.",
+            "line": " app/common/datepicker/mobiscroll.datetime.js:465"
+        },
+        {
+            "message": "Missing item type\nbind dom events\nthis overwrites addEventListener",
+            "line": " app/common/hammer/jquery.hammer.js:15"
+        },
+        {
+            "message": "Missing item type\nthe methods are called by the instance, but with the jquery plugin\nwe use the jquery event methods instead.",
+            "line": " app/common/hammer/jquery.hammer.js:56"
+        },
+        {
+            "message": "Missing item type\ntrigger events\nthis is called by the gestures to trigger an event like 'tap'",
+            "line": " app/common/hammer/jquery.hammer.js:70"
+        },
+        {
+            "message": "Missing item type\njQuery plugin\ncreate instance of Hammer and watch for gestures,\nand when called again you can change the options",
+            "line": " app/common/hammer/jquery.hammer.js:91"
+        },
+        {
+            "message": "Missing item type\nCreated by shanglei on 15/3/18.",
+            "line": " app/main5.js:1"
+        }
+    ]
+}

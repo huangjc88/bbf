@@ -1,0 +1,19 @@
+[
+    {"id": "1", "value": "全部","valueId": 0,"pressed":"false","className":"hj-shoplist-distince","classNameOff":"hj-shoplist-distince","classNameOn":"hj-shoplist-distince-on","items": [
+        {"id": "1", "name": "全部","keyName": "全部","value": 30000000},
+        {"id": "2", "name": "5km","keyName": "5km", "value": 5000},
+        {"id": "3", "name": "10km","keyName": "10km", "value": 10000},
+        {"id": "4", "name": "15km","keyName": "15km", "value": 15000}
+    ]},
+    {"id": "2", "value": "洗车","valueId": 1,"pressed":"false","className":"hj-shoplist-type","classNameOff":"hj-shoplist-type","classNameOn":"hj-shoplist-type-on","items": [
+        {"id": "1", "name": "4S","keyName": "4S", "value": ""},
+        {"id": "2", "name": "洗车","keyName": "洗车","value": "clean"},
+        {"id": "3", "name": "维保","keyName": "维保", "value": "repair"},
+        {"id": "4", "name": "美容", "keyName": "美容","value": "beauty"}
+    ]},
+    {"id": "3", "value": "智能","valueId": 0,"pressed":"false","className":"hj-shoplist-smart","classNameOff":"hj-shoplist-smart","classNameOn":"hj-shoplist-smart-on","items": [
+        {"id": "1", "name": "距离从近到远", "keyName": "智能","value": 0},
+        {"id": "2", "name": "好评从高到低", "keyName": "智能", "value": 1},
+        {"id": "3", "name": "销量从高到低", "keyName": "智能","value": 2}
+    ]}
+]

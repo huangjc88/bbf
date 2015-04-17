@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="description" content="有车，有慧驾!慧驾O2O触屏版">
+    <script type="text/javascript">
+        if(document.location.toString().indexOf('dist') > 0){
+            if(document.location.toString().indexOf('version') > 0){
+                document.write("<base href='/dist/version/0.1.0/'" +"/>");
+            }else{
+                document.write("<base href='/dist/'" +"/>");
+            }
+        }else{
+            document.write("<base href='/hj/'" +"/>");
+        }
+    </script>
+    <link href="assets/css/ratchet.css" rel="stylesheet">
+    <link href="assets/css/home.css" rel="stylesheet">
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!--<link href="assets/css/common.css" rel="stylesheet">-->
+    <!--<link href="assets/css/iOSdialogBox.css" rel="stylesheet">-->
+</head>
+
+<body>
+<div class="spinner">
+    <div class="rect1"></div>
+    <div class="rect2"></div>
+    <div class="rect3"></div>
+    <div class="rect4"></div>
+    <div class="rect5"></div>
+</div>
+<!-- build:js scripts/page1.js -->
+<script data-main="scripts/page1" src="scripts/lib/require.js"></script>
+<!-- endbuild -->
+<!--<script type="text/javascript">-->
+    <!--document.addEventListener('touchstart', function (e) {-->
+        <!--e.target.className = 'active';-->
+    <!--}, false);-->
+    <!--document.addEventListener('touchend', function (e) {-->
+        <!--e.target.className = '';-->
+    <!--}, false);-->
+<!--</script>-->
+</body>
+</html>

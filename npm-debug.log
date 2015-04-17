@@ -1,0 +1,118 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-contrib-compass' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'grunt-contrib-compass', null ]
+6 verbose cache add name=undefined spec="grunt-contrib-compass" args=["grunt-contrib-compass",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'grunt-contrib-compass',
+7 verbose parsed url   path: 'grunt-contrib-compass',
+7 verbose parsed url   href: 'grunt-contrib-compass' }
+8 silly lockFile 6a816d73-grunt-contrib-compass grunt-contrib-compass
+9 verbose lock grunt-contrib-compass /Users/huangjiacheng/.npm/6a816d73-grunt-contrib-compass.lock
+10 silly lockFile 6a816d73-grunt-contrib-compass grunt-contrib-compass
+11 silly lockFile 6a816d73-grunt-contrib-compass grunt-contrib-compass
+12 verbose addNamed [ 'grunt-contrib-compass', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 9d4b61e1-grunt-contrib-compass grunt-contrib-compass@
+15 verbose lock grunt-contrib-compass@ /Users/huangjiacheng/.npm/9d4b61e1-grunt-contrib-compass.lock
+16 silly addNameRange { name: 'grunt-contrib-compass', range: '*', hasData: false }
+17 verbose request where is /grunt-contrib-compass
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 393feb4e237d766f
+20 verbose url raw /grunt-contrib-compass
+21 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-compass' ]
+22 verbose url resolved https://registry.npmjs.org/grunt-contrib-compass
+23 verbose request where is https://registry.npmjs.org/grunt-contrib-compass
+24 info trying registry request attempt 1 at 16:37:51
+25 verbose etag "2S0HC35U9PAMYRENV9YSUUA6H"
+26 http GET https://registry.npmjs.org/grunt-contrib-compass
+27 http 200 https://registry.npmjs.org/grunt-contrib-compass
+28 silly registry.get cb [ 200,
+28 silly registry.get   { date: 'Mon, 13 Apr 2015 08:37:53 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     etag: '"24CTTNP0NZPE216YA6BJN69L5"',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     'content-length': '48838',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '57',
+28 silly registry.get     'x-served-by': 'cache-nrt6120-NRT',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1428914273.034052,VS0,VE1',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly addNameRange number 2 { name: 'grunt-contrib-compass', range: '*', hasData: true }
+30 silly addNameRange versions [ 'grunt-contrib-compass',
+30 silly addNameRange   [ '0.1.0',
+30 silly addNameRange     '0.1.1',
+30 silly addNameRange     '0.1.2',
+30 silly addNameRange     '0.1.3',
+30 silly addNameRange     '0.2.0',
+30 silly addNameRange     '0.3.0',
+30 silly addNameRange     '0.4.0',
+30 silly addNameRange     '0.4.1',
+30 silly addNameRange     '0.5.0',
+30 silly addNameRange     '0.6.0',
+30 silly addNameRange     '0.7.0',
+30 silly addNameRange     '0.1.1-rc7',
+30 silly addNameRange     '0.1.1-rc8',
+30 silly addNameRange     '0.7.1',
+30 silly addNameRange     '0.7.2',
+30 silly addNameRange     '0.8.0',
+30 silly addNameRange     '0.9.0',
+30 silly addNameRange     '0.9.1',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '1.0.1',
+30 silly addNameRange     '1.0.2',
+30 silly addNameRange     '1.0.3' ] ]
+31 verbose addNamed [ 'grunt-contrib-compass', '1.0.3' ]
+32 verbose addNamed [ '1.0.3', '1.0.3' ]
+33 silly lockFile 66b23c13-grunt-contrib-compass-1-0-3 grunt-contrib-compass@1.0.3
+34 verbose lock grunt-contrib-compass@1.0.3 /Users/huangjiacheng/.npm/66b23c13-grunt-contrib-compass-1-0-3.lock
+35 silly lockFile 96610335--grunt-contrib-compass-1-0-3-tgz https://registry.npmjs.org/grunt-contrib-compass/-/grunt-contrib-compass-1.0.3.tgz
+36 verbose lock https://registry.npmjs.org/grunt-contrib-compass/-/grunt-contrib-compass-1.0.3.tgz /Users/huangjiacheng/.npm/96610335--grunt-contrib-compass-1-0-3-tgz.lock
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-compass/-/grunt-contrib-compass-1.0.3.tgz',
+37 verbose addRemoteTarball   '6053110ad2cbcbab805f59a16e4ed2efa8ce3377' ]
+38 info retry fetch attempt 1 at 16:37:53
+39 verbose fetch to= /var/folders/my/rmgh2xd972dc1ll3v866qw7c0000gn/T/npm-1638-PDQUepot/registry.npmjs.org/grunt-contrib-compass/-/grunt-contrib-compass-1.0.3.tgz
+40 http GET https://registry.npmjs.org/grunt-contrib-compass/-/grunt-contrib-compass-1.0.3.tgz
+41 http 200 https://registry.npmjs.org/grunt-contrib-compass/-/grunt-contrib-compass-1.0.3.tgz
+42 silly lockFile 96610335--grunt-contrib-compass-1-0-3-tgz https://registry.npmjs.org/grunt-contrib-compass/-/grunt-contrib-compass-1.0.3.tgz
+43 silly lockFile 96610335--grunt-contrib-compass-1-0-3-tgz https://registry.npmjs.org/grunt-contrib-compass/-/grunt-contrib-compass-1.0.3.tgz
+44 silly lockFile 66b23c13-grunt-contrib-compass-1-0-3 grunt-contrib-compass@1.0.3
+45 silly lockFile 66b23c13-grunt-contrib-compass-1-0-3 grunt-contrib-compass@1.0.3
+46 silly lockFile 9d4b61e1-grunt-contrib-compass grunt-contrib-compass@
+47 silly lockFile 9d4b61e1-grunt-contrib-compass grunt-contrib-compass@
+48 error Error: EACCES, mkdir '/Users/huangjiacheng/.npm/grunt-contrib-compass/1.0.3'
+48 error  { [Error: EACCES, mkdir '/Users/huangjiacheng/.npm/grunt-contrib-compass/1.0.3']
+48 error   errno: 3,
+48 error   code: 'EACCES',
+48 error   path: '/Users/huangjiacheng/.npm/grunt-contrib-compass/1.0.3',
+48 error   parent: 'app' }
+49 error Please try running this command again as root/Administrator.
+50 error System Darwin 13.4.0
+51 error command "node" "/usr/local/bin/npm" "install" "grunt-contrib-compass"
+52 error cwd /Users/huangjiacheng/WebstormProjects/webapp
+53 error node -v v0.10.33
+54 error npm -v 1.4.28
+55 error path /Users/huangjiacheng/.npm/grunt-contrib-compass/1.0.3
+56 error code EACCES
+57 error errno 3
+58 error stack Error: EACCES, mkdir '/Users/huangjiacheng/.npm/grunt-contrib-compass/1.0.3'
+59 verbose exit [ 3, true ]

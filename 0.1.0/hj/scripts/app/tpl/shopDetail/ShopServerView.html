@@ -1,0 +1,27 @@
+<header class="hj-bar stable bar bar-nav" id="hasHeader">
+    <h1 class="title">
+        服务详情
+    </h1>
+    <a class="icon icon-left-nav pull-left"><span style="vertical-align: middle;font-size: 16px;">返回</span></a>
+</header>
+<div class="content">
+    <div class="hj-shopserver-menu">
+        <ul>
+            <li>
+                <span class="hj-shopserver-menu-tip">服务时间</span>
+                <span class="hj-shopserver-menu-detail"><%= serviceTime %></span>
+            </li>
+            <li>
+                <span class="hj-shopserver-menu-tip">服务范围</span>
+                <span class="hj-shopserver-menu-detail"><%= serviceAbilityDesc %></span>
+            </li>
+            <% _.each(shoptags, function(tagItem) { %>
+            <li>
+                <i class="icon-<%= tagItem.tagCode %>"></i>
+                <span  class="hj-shopserver-menu-detail"><%= tagItem.tagName %></span>
+            </li>
+            <% });
+            %>
+        </ul>
+    </div>
+</div>

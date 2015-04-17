@@ -1,0 +1,223 @@
+body{
+    background-color: #f8f8f8;
+    -webkit-font-smoothing:antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+.content{
+    -webkit-text-size-adjust: 100%;/*开启字体大小，解决谷歌12px以下字体显示问题*/
+    -ms-text-size-adjust: 100%;
+    background-color: #f8f8f8;
+}
+.hj-detail-menu ul,.hj-shopserver-menu ul{
+    list-style: none;
+    margin:10px 0px;
+    padding:0px 15px;
+    border-top: 1px solid #EFEFEF;
+    border-bottom: 1px solid #EFEFEF;
+    background-color: #fff;
+    font-size: 16px;
+    color:#333;
+}
+
+.hj-shopdetail-menu ul li,.hj-shopserver-menu ul li{
+    white-space: nowrap;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color:#666;
+    border-bottom: 1px solid #EFEFEF;
+    position: relative;
+}
+.hj-shopserver-menu ul li:last-child{
+    border-bottom: none;
+}
+.hj-shopdetail-menu li i{
+    background: url('../images/allbgs.png') no-repeat;
+    background-size: auto 100%;
+    display: inline-block;
+    vertical-align: middle;
+    width:20px;
+    height:20px;
+    margin-right: 25px;
+}
+
+.hj-shopdetail-menu li i.icon-position{
+    background-position: -20px 0px;
+    margin-left: 20px;
+}
+.hj-shopdetail-menu li i.icon-server{
+    background-position: 00px 0px;
+    margin-left: 20px;
+}
+.hj-shopdetail-menu li i.icon-call{
+    background-position: -40px 0px;
+    margin-left: 20px;
+}
+.icon-favStart.icon{
+    background: url('../images/allbgs.png') no-repeat;
+    background-size: auto 100%;
+    vertical-align: middle;
+    width:20px;
+    height:20px;
+    font-size: 14px;
+    background-position: -180px 0px;
+}
+.hj-shopdetail-menu li i.icon-quan{
+    background-position: 0px 0px;
+    margin-top: -4px;
+}
+.hj-shopdetail-menu li i.icon-order{
+    background-position: -60px 0px;
+    margin-top: -4px;
+}
+
+.hj-shopdetail-menu li .phone{
+    color:red;
+    padding-left: 20px;
+}
+.hj-shopdetail-menu li.phone a{
+    color: red;
+}
+
+.hj-shopdetail-menu .icon,.hj-shopserver-menu .icon{
+    color:#bbb;
+    font-size: 16px;
+    line-height: 50px;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0;
+}
+
+.hj-shopdetail-menu li .icon-right-nav:before,.hj-shopserver-menu li .icon-right-nav:before{
+    position: absolute;
+    right: 10px;
+}
+
+.hj-shopDetail-item{
+    padding: 5px 0px;
+    color: #666;
+}
+.hj-shopdetail-item-body img{
+    /*margin-top: 5px;*/
+    /*padding-left: 10px;*/
+    width: 90px;
+    height: 70px;
+}
+.hj-shopdetail-item-body h2{
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    position: absolute;
+    left:120px;
+    top:12px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.hj-shopdetail-item-deal{
+    position: absolute;
+    left:120px;
+    top:60px;
+    font-size: 14px;
+}
+.hj-shopdetail-item-body-score.icon{
+    font-size: 16px;
+}
+
+.hj-shopdetail-item-body-score.assertive{
+    color:#f13f2f;
+}
+.hj-shopdetail-item-score{
+     position:absolute;
+     left:120px;
+     top:32px;
+ }
+.hj-shopdetail-item-fav{
+    position:absolute;
+    right:30px;
+    top:32px;
+    text-align: center;
+    width: 40px;
+}
+.hj-shopdetail-menu-address{
+    text-overflow: ellipsis;
+    overflow:hidden;
+    position: absolute;
+    right:40px;
+    left:65px;
+}
+
+ul {
+    clear: both;
+}
+
+.content {
+    position: absolute;
+}
+
+.bar-header-secondary>input {
+    margin-top: 6px;
+    height: 31px;
+}
+
+.details {
+    margin: auto;
+}
+
+.details>img {
+    float:left;
+    margin:10px;
+    width: 80px;
+    height: 80px;
+}
+
+.home .table-view {
+    margin: 0 !important;
+    border: none;
+}
+
+.details h1 {
+    padding-top: 16px;
+    font-size: 18px;
+}
+
+.media-object {
+    width: 42px;
+    height: 42px;
+}
+
+.hj-shopserver-menu li i{
+    background: url('../images/shopServer.png') no-repeat;
+    background-size: auto 100%;
+    display: inline-block;
+    vertical-align: middle;
+    width:20px;
+    height:20px;
+    margin-right: 25px;
+}
+
+.hj-shopserver-menu li i.icon-rest{
+    background-position: 0px 0px;
+    margin-left: 20px;
+}
+.hj-shopserver-menu li i.icon-sunshine{
+    background-position: -20px 0px;
+    margin-left: 20px;
+}
+.hj-shopserver-menu li i.icon-live{
+    background-position: -40px 0px;
+    margin-left: 20px;
+}
+.hj-shopserver-menu li i.icon-wifi{
+    background-position: -60px 0px;
+    margin-left: 20px;
+}
+.hj-shopserver-menu-detail{
+    display: inline-block;
+    width: 100%;
+    margin-left: -65px;
+    text-align: center;
+}
+.hj-shopserver-menu-tip {
+    margin:0px 5px 0px 5px;
+}

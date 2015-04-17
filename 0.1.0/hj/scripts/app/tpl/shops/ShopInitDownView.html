@@ -1,0 +1,11 @@
+<% _.each(items, function(childItem,index) { %>
+<%if(index === valueId){%>
+<li style="color:red;" data-id="<%= index %>">
+    <%= childItem.name %>
+</li>
+<%}else{%>
+<li  data-id="<%= index %>">
+    <%= childItem.name %>
+</li>
+<%}%>
+<% });%>

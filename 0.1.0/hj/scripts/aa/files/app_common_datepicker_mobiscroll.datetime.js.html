@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>app/common/datepicker/mobiscroll.datetime.js</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="icon" href="../assets/favicon.ico">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+                <h1><img src="../assets/css/logo.png" title="" width="117" height="52"></h1>
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: </em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+                    <h2 class="off-left">APIs</h2>
+                    <div id="api-tabview" class="tabview">
+                        <ul class="tabs">
+                            <li><a href="#api-classes">Classes</a></li>
+                            <li><a href="#api-modules">Modules</a></li>
+                        </ul>
+                
+                        <div id="api-tabview-filter">
+                            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+                        </div>
+                
+                        <div id="api-tabview-panel">
+                            <ul id="api-classes" class="apis classes">
+                                <li><a href="../classes/adverstAdapter.html">adverstAdapter</a></li>
+                                <li><a href="../classes/AdverstCollection.html">AdverstCollection</a></li>
+                                <li><a href="../classes/AdverstModel.html">AdverstModel</a></li>
+                                <li><a href="../classes/al_notifications.html">al_notifications</a></li>
+                                <li><a href="../classes/app.html">app</a></li>
+                                <li><a href="../classes/AppHomeRouter.html">AppHomeRouter</a></li>
+                                <li><a href="../classes/AppRouter.html">AppRouter</a></li>
+                                <li><a href="../classes/AppShopDetailRouter.html">AppShopDetailRouter</a></li>
+                                <li><a href="../classes/AppShopListRouter.html">AppShopListRouter</a></li>
+                                <li><a href="../classes/areaAdapter.html">areaAdapter</a></li>
+                                <li><a href="../classes/AreaCollection.html">AreaCollection</a></li>
+                                <li><a href="../classes/AreaInitItemView.html">AreaInitItemView</a></li>
+                                <li><a href="../classes/AreaInitView.html">AreaInitView</a></li>
+                                <li><a href="../classes/AreaListItemView.html">AreaListItemView</a></li>
+                                <li><a href="../classes/AreaListView.html">AreaListView</a></li>
+                                <li><a href="../classes/AreaModel.html">AreaModel</a></li>
+                                <li><a href="../classes/AreaView.html">AreaView</a></li>
+                                <li><a href="../classes/BaseView.html">BaseView</a></li>
+                                <li><a href="../classes/Carousel.html">Carousel</a></li>
+                                <li><a href="../classes/getApi.html">getApi</a></li>
+                                <li><a href="../classes/HomeView.html">HomeView</a></li>
+                                <li><a href="../classes/loginModel.html">loginModel</a></li>
+                                <li><a href="../classes/LoginView.html">LoginView</a></li>
+                                <li><a href="../classes/MyView.html">MyView</a></li>
+                                <li><a href="../classes/shopAdapter.html">shopAdapter</a></li>
+                                <li><a href="../classes/shopDetailAdapter.html">shopDetailAdapter</a></li>
+                                <li><a href="../classes/ShopDetailModel.html">ShopDetailModel</a></li>
+                                <li><a href="../classes/ShopDetailView.html">ShopDetailView</a></li>
+                                <li><a href="../classes/ShopInitCollection.html">ShopInitCollection</a></li>
+                                <li><a href="../classes/ShopInitDownView.html">ShopInitDownView</a></li>
+                                <li><a href="../classes/ShopInitItemView.html">ShopInitItemView</a></li>
+                                <li><a href="../classes/ShopInitView.html">ShopInitView</a></li>
+                                <li><a href="../classes/ShopListView.html">ShopListView</a></li>
+                                <li><a href="../classes/ShopModel.html">ShopModel</a></li>
+                                <li><a href="../classes/ShopResultModel.html">ShopResultModel</a></li>
+                                <li><a href="../classes/ShopResultView.html">ShopResultView</a></li>
+                                <li><a href="../classes/ShopServerView.html">ShopServerView</a></li>
+                                <li><a href="../classes/userAdapter.html">userAdapter</a></li>
+                                <li><a href="../classes/userInfoCollection.html">userInfoCollection</a></li>
+                                <li><a href="../classes/userModel.html">userModel</a></li>
+                            </ul>
+                
+                            <ul id="api-modules" class="apis modules">
+                                <li><a href="../modules/appconstant.html">appconstant</a></li>
+                                <li><a href="../modules/area.html">area</a></li>
+                                <li><a href="../modules/common.html">common</a></li>
+                                <li><a href="../modules/home.html">home</a></li>
+                                <li><a href="../modules/my.html">my</a></li>
+                                <li><a href="../modules/shopDetail.html">shopDetail</a></li>
+                                <li><a href="../modules/shopList.html">shopList</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+                    Show:
+                    <label for="api-show-inherited">
+                        <input type="checkbox" id="api-show-inherited" checked>
+                        Inherited
+                    </label>
+            
+                    <label for="api-show-protected">
+                        <input type="checkbox" id="api-show-protected">
+                        Protected
+                    </label>
+            
+                    <label for="api-show-private">
+                        <input type="checkbox" id="api-show-private">
+                        Private
+                    </label>
+                    <label for="api-show-deprecated">
+                        <input type="checkbox" id="api-show-deprecated">
+                        Deprecated
+                    </label>
+            
+                </div>
+            
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+<h1 class="file-heading">File: app/common/datepicker/mobiscroll.datetime.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+(function (factory) {
+    if (typeof exports === &#x27;object&#x27;) {
+        module.exports = factory(require(&#x27;Zepto&#x27;,&#x27;app/common/datepicker/mobiscroll.core&#x27;));
+    } else if (typeof define === &#x27;function&#x27; &amp;&amp; define.amd) {
+        define([&#x27;Zepto&#x27;,&#x27;app/common/datepicker/mobiscroll.core&#x27;], factory);
+    }
+}
+(function ($) {
+    var date = new Date(),
+        defaults = {
+            dateFormat: &#x27;yy/mm/dd&#x27;,
+            dateOrder: &#x27;mmddy&#x27;,
+            timeWheels: &#x27;hhii&#x27;,
+            timeFormat: &#x27;hh:ii&#x27;,
+            startYear: date.getFullYear(),
+            endYear: date.getFullYear()+1,
+            monthNames: [&#x27;January&#x27;,&#x27;February&#x27;,&#x27;March&#x27;,&#x27;April&#x27;,&#x27;May&#x27;,&#x27;June&#x27;, &#x27;July&#x27;,&#x27;August&#x27;,&#x27;September&#x27;,&#x27;October&#x27;,&#x27;November&#x27;,&#x27;December&#x27;],
+            monthNamesShort: [&#x27;Jan&#x27;, &#x27;Feb&#x27;, &#x27;Mar&#x27;, &#x27;Apr&#x27;, &#x27;May&#x27;, &#x27;Jun&#x27;, &#x27;Jul&#x27;, &#x27;Aug&#x27;, &#x27;Sep&#x27;, &#x27;Oct&#x27;, &#x27;Nov&#x27;, &#x27;Dec&#x27;],
+            dayNames: [&#x27;Sunday&#x27;, &#x27;Monday&#x27;, &#x27;Tuesday&#x27;, &#x27;Wednesday&#x27;, &#x27;Thursday&#x27;, &#x27;Friday&#x27;, &#x27;Saturday&#x27;],
+            dayNamesShort: [&#x27;Sun&#x27;, &#x27;Mon&#x27;, &#x27;Tue&#x27;, &#x27;Wed&#x27;, &#x27;Thu&#x27;, &#x27;Fri&#x27;, &#x27;Sat&#x27;],
+            shortYearCutoff: &#x27;+10&#x27;,
+            monthText: &#x27;月份&#x27;,
+            dayText: &#x27;日&#x27;,
+            yearText: &#x27;年份&#x27;,
+            hourText: &#x27;时&#x27;,
+            minuteText: &#x27;分&#x27;,
+            secText: &#x27;秒&#x27;,
+            ampmText: &#x27;&amp;nbsp;&#x27;,
+            stepHour: 1,
+            stepMinute: 1,
+            stepSecond: 1,
+            separator: &#x27; &#x27;
+        },
+        preset = function(inst) {
+            var that = $(this),
+                html5def = {},
+                format;
+            // Force format for html5 date inputs (experimental)
+            if (that.is(&#x27;input&#x27;)) {
+                switch (that.attr(&#x27;type&#x27;)) {
+                    case &#x27;date&#x27;:
+                        format = &#x27;yy-mm-dd&#x27;;
+                        break;
+                    case &#x27;datetime&#x27;:
+                        format = &#x27;yy-mm-ddTHH:ii:ssZ&#x27;;
+                        break;
+                    case &#x27;datetime-local&#x27;:
+                        format = &#x27;yy-mm-ddTHH:ii:ss&#x27;;
+                        break;
+                    case &#x27;month&#x27;:
+                        format = &#x27;yy-mm&#x27;;
+                        html5def.dateOrder = &#x27;mmyy&#x27;;
+                        break;
+                    case &#x27;time&#x27;:
+                        format = &#x27;HH:ii:ss&#x27;;
+                        break;
+                }
+                // Check for min/max attributes
+                var min = that.attr(&#x27;min&#x27;),
+                    max = that.attr(&#x27;max&#x27;);
+                if (min)
+                    html5def.minDate = $.scroller.parseDate(format, min);
+                if (max)
+                    html5def.maxDate = $.scroller.parseDate(format, max);
+            }
+
+            // Set year-month-day order
+            var s = $.extend({}, defaults, html5def, inst.settings),
+                offset = 0,
+                wheels = [],
+                ord = [],
+                o = {},
+                f = { y: &#x27;getFullYear&#x27;, m: &#x27;getMonth&#x27;, d: &#x27;getDate&#x27;, h: getHour, i: getMinute, s: getSecond, ap: getAmPm },
+                p = s.preset,
+                dord = s.dateOrder,
+                tord = s.timeWheels,
+                regen = dord.match(/D/),
+                ampm = tord.match(/a/i),
+                hampm = tord.match(/h/),
+                hformat = p == &#x27;datetime&#x27; ? s.dateFormat + s.separator + s.timeFormat : p == &#x27;time&#x27; ? s.timeFormat : s.dateFormat,
+                defd = new Date(),
+                stepH = s.stepHour,
+                stepM = s.stepMinute,
+                stepS = s.stepSecond,
+                mind = s.minDate,
+                maxd = s.maxDate;
+
+            format = format ? format : hformat;
+
+            if (p.match(/date/i)) {
+
+                // Determine the order of year, month, day wheels
+                $.each([&#x27;y&#x27;, &#x27;m&#x27;, &#x27;d&#x27;], function(i, v) {
+                    var i = dord.search(new RegExp(v, &#x27;i&#x27;));
+                    if (i &gt; -1)
+                        ord.push({ o: i, v: v });
+                });
+                /*changed by huangjc*/
+//                ord.sort(function(a, b) { return a.o &gt; b.o ? 1 : -1; });
+                $.each(ord, function(i, v) {
+                    o[v.v] = i;
+
+                });
+
+                var w = {};
+                console.log(o);
+                for (var k = 0; k &lt; 3; k++) {
+                    if (k == o.y) {
+                        offset++;
+                        w[s.yearText] = {};
+                        var start = mind ? mind.getFullYear() : s.startYear,
+                            end = maxd ? maxd.getFullYear() : s.endYear;
+                        for (var i = start; i &lt;= end; i++)
+                        /*changed by huangjc*/
+//                            w[s.yearText][i] = dord.match(/yy/i) ? i : (i + &#x27;&#x27;).substr(2, 2);
+                            w[s.yearText][i] = dord.match(/yy/i) ? i : (i + &#x27;&#x27;);
+                    }
+                    else if (k == o.m) {
+                        offset++;
+                        w[s.monthText] = {};
+                        for (var i = 0; i &lt; 12; i++)
+                            w[s.monthText][i] =
+                                dord.match(/MM/) ? s.monthNames[i] :
+                                dord.match(/M/) ? s.monthNamesShort[i] :
+                                dord.match(/mm/) &amp;&amp; i &lt; 9 ? &#x27;0&#x27; + (i + 1) : i + 1;
+                    }
+                    else if (k == o.d) {
+                        offset++;
+                        w[s.dayText] = {};
+                        for (var i = 1; i &lt; 32; i++)
+                            w[s.dayText][i] = dord.match(/dd/i) &amp;&amp; i &lt; 10 ? &#x27;0&#x27; + i : i;
+                    }
+                }
+                wheels.push(w);
+
+            }
+
+            if (p.match(/time/i)) {
+                var w = {};
+                if (tord.match(/h/i)) {
+                    o.h = offset++; // Hours wheel order
+                    w[s.hourText] = {};
+                    for (var i = 0; i &lt; 24; i += stepH) {
+                        console.log(i)
+                    w[s.hourText][i] = i;
+                }
+                    /*changed by huangjc*/
+//                    for (var i = 0; i &lt; (hampm ? 12 : 24); i += stepH)
+//                        w[s.hourText][i] = hampm &amp;&amp; i == 0 ? 12 : tord.match(/hh/i) &amp;&amp; i &lt; 10 ? &#x27;0&#x27; + i : i;
+                }
+                if (tord.match(/i/)) {
+                    o.i = offset++; // Minutes wheel order
+                    w[s.minuteText] = {};
+                    for (var i = 0; i &lt; 60; i += stepM)
+                        w[s.minuteText][i] = tord.match(/ii/) &amp;&amp; i &lt; 10 ? &#x27;0&#x27; + i : i;
+                }
+                if (tord.match(/s/)) {
+                    o.s = offset++; // Seconds wheel order
+                    w[s.secText] = {};
+                    for (var i = 0; i &lt; 60; i += stepS)
+                        w[s.secText][i] = tord.match(/ss/) &amp;&amp; i &lt; 10 ? &#x27;0&#x27; + i : i;
+                }
+                if (ampm) {
+                    o.ap = offset++; // ampm wheel order
+                    var upper = tord.match(/A/);
+                    w[s.ampmText] = { 0: upper ? &#x27;AM&#x27; : &#x27;am&#x27;, 1: upper ? &#x27;PM&#x27; : &#x27;pm&#x27; };
+                }
+                console.log(&#x27;www&#x27;,w)
+                wheels.push(w);
+            }
+
+            function get(d, i, def) {
+                if (o[i] !== undefined)
+                    return +d[o[i]];
+                if (def !== undefined)
+                    return def;
+                return defd[f[i]] ? defd[f[i]]() : f[i](defd);
+            }
+
+            function step(v, step) {
+                return Math.floor(v / step) * step;
+            }
+
+            function getHour(d) {
+                var hour = d.getHours();
+                hour = hampm &amp;&amp; hour &gt;= 12 ? hour - 12 : hour;
+                return step(hour, stepH);
+            }
+
+            function getMinute(d) {
+                return step(d.getMinutes(), stepM);
+            }
+
+            function getSecond(d) {
+                return step(d.getSeconds(), stepS);
+            }
+
+            function getAmPm(d) {
+                return ampm &amp;&amp; d.getHours() &gt; 11 ? 1 : 0;
+            }
+
+            function getDate(d) {
+                var hour = get(d, &#x27;h&#x27;, 0);
+                return new Date(get(d, &#x27;y&#x27;), get(d, &#x27;m&#x27;), get(d, &#x27;d&#x27;), get(d, &#x27;ap&#x27;) ? hour + 12 : hour, get(d, &#x27;i&#x27;, 0), get(d, &#x27;s&#x27;, 0));
+            }
+
+            inst.setDate = function(d, fill, time) {
+                // Set wheels
+                for (var i in o)
+                    this.temp[o[i]] = d[f[i]] ? d[f[i]]() : f[i](d);
+                this.setValue(true, fill, time);
+            }
+
+            inst.getDate = function(d) {
+                return getDate(d);
+            }
+
+            return {
+                wheels: wheels,
+                headerText: function(v) {
+                    return $.scroller.formatDate(hformat, getDate(inst.temp), s);
+                },
+                /**
+                 * Builds a date object from the wheel selections and formats it to the given date/time format
+                 * @param {Array} d - An array containing the selected wheel values
+                 * @return {String} - The formatted date string
+                 */
+                formatResult: function(d) {
+                    return $.scroller.formatDate(format, getDate(d), s);
+                },
+                /**
+                 * Builds a date object from the input value and returns an array to set wheel values
+                 * @return {Array} - An array containing the wheel values to set
+                 */
+                parseValue: function(val) {
+                    var d = new Date(),
+                        result = [];
+                    try {
+                        d = $.scroller.parseDate(format, val, s);
+                    }
+                    catch (e) {
+                    }
+                    // Set wheels
+                    for (var i in o)
+                        result[o[i]] = d[f[i]] ? d[f[i]]() : f[i](d);
+                    return result;
+                },
+                /**
+                 * Validates the selected date to be in the minDate / maxDate range and sets unselectable values to disabled
+                 * @param {Object} dw - jQuery object containing the generated html
+                 * @param {Integer} [i] - Index of the changed wheel, not set for initial validation
+                 */
+                validate: function(dw, i) {
+                    var temp = inst.temp,
+                        mins = { m: 0, d: 1, h: 0, i: 0, s: 0, ap: 0 },
+                        /*changed by huangjc*/
+                        maxs = { m: 11, d: 31, h: 23, i: step(59, stepM), s: step(59, stepS), ap: 1 },
+//                        maxs = { m: 11, d: 31, h: step(hampm ? 11 : 23, stepH), i: step(59, stepM), s: step(59, stepS), ap: 1 },
+                        w = (mind || maxd) ? [&#x27;y&#x27;, &#x27;m&#x27;, &#x27;d&#x27;, &#x27;ap&#x27;, &#x27;h&#x27;, &#x27;i&#x27;, &#x27;s&#x27;] : ((i == o.y || i == o.m || i === undefined) ? [&#x27;d&#x27;] : []), // Validate day only, if no min/max date set
+                        minprop = true,
+                        maxprop = true;
+                    $.each(w, function(x, i) {
+                        if (o[i] !== undefined) {
+                            var min = mins[i],
+                                max = maxs[i],
+                                maxdays = 31,
+                                val = get(temp, i),
+                                t = $(&#x27;ul&#x27;, dw).eq(o[i]),
+                                y, m;
+                            if (i == &#x27;d&#x27;) {
+                                y = get(temp, &#x27;y&#x27;),
+                                m = get(temp, &#x27;m&#x27;);
+                                maxdays = 32 - new Date(y, m, 32).getDate();
+                                max = maxdays;
+                                if (regen)
+                                    $(&#x27;li&#x27;, t).each(function() {
+                                        var that = $(this),
+                                            d = that.data(&#x27;val&#x27;),
+                                            w = new Date(y, m, d).getDay();
+                                        that.html(dord.replace(/[my]/gi, &#x27;&#x27;).replace(/dd/, d &lt; 10 ? &#x27;0&#x27; + d : d).replace(/d/, d).replace(/DD/, s.dayNames[w]).replace(/D/, s.dayNamesShort[w]));
+                                    });
+                            }
+                            if (minprop &amp;&amp; mind) {
+                                min = mind[f[i]] ? mind[f[i]]() : f[i](mind);
+                            }
+                            if (maxprop &amp;&amp; maxd) {
+                                max = maxd[f[i]] ? maxd[f[i]]() : f[i](maxd);
+                            }
+                            if (i != &#x27;y&#x27;) {
+                                var i1 = $(&#x27;li[data-val=&quot;&#x27; + min + &#x27;&quot;]&#x27;, t).index(),
+                                    i2 = $(&#x27;li[data-val=&quot;&#x27; + max + &#x27;&quot;]&#x27;, t).index();
+                                $(&#x27;li&#x27;, t).removeClass(&#x27;dw-v&#x27;).slice(i1, i2 + 1).addClass(&#x27;dw-v&#x27;);
+                                if (i == &#x27;d&#x27;) { // Hide days not in month
+                                    $(&#x27;li&#x27;, t).removeClass(&#x27;dw-h&#x27;).slice(maxdays).addClass(&#x27;dw-h&#x27;);
+                                }
+                                if (val &lt; min)
+                                    val = min;
+                                if (val &gt; max)
+                                    val = max;
+                            }
+                            if (minprop)
+                                minprop = val == min;
+                            if (maxprop)
+                                maxprop = val == max;
+                            // Disable some days
+                            if (s.invalid &amp;&amp; i == &#x27;d&#x27;) {
+                                var idx = [];
+                                // Disable exact dates
+                                if (s.invalid.dates)
+                                    $.each(s.invalid.dates, function(i, v) {
+                                        if (v.getFullYear() == y &amp;&amp; v.getMonth() == m) {
+                                            idx.push(v.getDate() - 1);
+                                        }
+                                    });
+                                // Disable days of week
+                                if (s.invalid.daysOfWeek) {
+                                    var first = new Date(y, m, 1).getDay();
+                                    $.each(s.invalid.daysOfWeek, function(i, v) {
+                                        for (var j = v - first; j &lt; maxdays; j += 7)
+                                            if (j &gt;= 0)
+                                                idx.push(j);
+                                    });
+                                }
+                                // Disable days of month
+                                if (s.invalid.daysOfMonth)
+                                    $.each(s.invalid.daysOfMonth, function(i, v) {
+                                        v = (v + &#x27;&#x27;).split(&#x27;/&#x27;);
+                                        if (v[1]) {
+                                            if (v[0] - 1 == m)
+                                                idx.push(v[1] - 1);
+                                        }
+                                        else
+                                            idx.push(v[0] - 1);
+                                    });
+                                $.each(idx, function(i, v) {
+                                    $(&#x27;li&#x27;, t).eq(v).removeClass(&#x27;dw-v&#x27;);
+                                });
+                            }
+                        }
+                    });
+                },
+                methods: {
+                    /**
+                    * Returns the currently selected date.
+                    * @param {Boolean} temp - If true, return the currently shown date on the picker, otherwise the last selected one
+                    * @return {Date}
+                    */
+                    getDate: function(temp) {
+                        //var inst = $(this).data(&#x27;scroller&#x27;);
+                        var inst = $(this).scroller(&#x27;getInst&#x27;);
+                        if (inst)
+                            return inst.getDate(temp ? inst.temp : inst.values);
+                    },
+                    /**
+                    * Sets the selected date
+                    * @param {Date} d - Date to select.
+                    * @param {Boolean} [fill] - Also set the value of the associated input element. Default is true.
+                    * @return {Object} - jQuery object to maintain chainability
+                    */
+                    setDate: function(d, fill, time) {
+                        if (fill == undefined) fill = false;
+                        return this.each(function () {
+                            var inst = $(this).scroller(&#x27;getInst&#x27;);
+                            if (inst)
+                                inst.setDate(d, fill, time);
+                        });
+                    }
+                }
+            }
+        };
+
+    $.scroller.presets.date = preset;
+    $.scroller.presets.datetime = preset;
+    $.scroller.presets.time = preset;
+
+    /**
+    * Format a date into a string value with a specified format.
+    * @param {String} format - Output format.
+    * @param {Date} date - Date to format.
+    * @param {Object} settings - Settings.
+    * @return {String} - Returns the formatted date string.
+    */
+    $.scroller.formatDate = function (format, date, settings) {
+        if (!date) return null;
+        var s = $.extend({}, defaults, settings),
+            // Check whether a format character is doubled
+            look = function(m) {
+                var n = 0;
+                while (i + 1 &lt; format.length &amp;&amp; format.charAt(i + 1) == m) { n++; i++; };
+                return n;
+            },
+            // Format a number, with leading zero if necessary
+            f1 = function(m, val, len) {
+                var n = &#x27;&#x27; + val;
+                if (look(m))
+                    while (n.length &lt; len)
+                        n = &#x27;0&#x27; + n;
+                return n;
+            },
+            // Format a name, short or long as requested
+            f2 = function(m, val, s, l) {
+                return (look(m) ? l[val] : s[val]);
+            },
+            output = &#x27;&#x27;,
+            literal = false;
+        for (var i = 0; i &lt; format.length; i++) {
+            if (literal)
+                if (format.charAt(i) == &quot;&#x27;&quot; &amp;&amp; !look(&quot;&#x27;&quot;))
+                    literal = false;
+                else
+                    output += format.charAt(i);
+
+            else
+                switch (format.charAt(i)) {
+                    case &#x27;d&#x27;:
+                        output += f1(&#x27;d&#x27;, date.getDate(), 2);
+                        break;
+                    case &#x27;D&#x27;:
+                        output += f2(&#x27;D&#x27;, date.getDay(), s.dayNamesShort, s.dayNames);
+                        break;
+                    case &#x27;o&#x27;:
+                        output += f1(&#x27;o&#x27;, (date.getTime() - new Date(date.getFullYear(), 0, 0).getTime()) / 86400000, 3);
+                        break;
+                    case &#x27;m&#x27;:
+                        output += f1(&#x27;m&#x27;, date.getMonth() + 1, 2);
+                        break;
+                    case &#x27;M&#x27;:
+                        output += f2(&#x27;M&#x27;, date.getMonth(), s.monthNamesShort, s.monthNames);
+                        break;
+                    case &#x27;y&#x27;:
+                        output += (look(&#x27;y&#x27;) ? date.getFullYear() : (date.getYear() &lt; 10 ? &#x27;0&#x27; : &#x27;&#x27;) + date.getYear());
+                        break;
+                    case &#x27;h&#x27;:
+                        var h = date.getHours();
+                        output += f1(&#x27;h&#x27;, (h &gt; 12 ? (h - 12) : (h == 0 ? 12 : h)), 2);
+                        break;
+                    case &#x27;H&#x27;:
+                        output += f1(&#x27;H&#x27;, date.getHours(), 2);
+                        break;
+                    case &#x27;i&#x27;:
+                        output += f1(&#x27;i&#x27;, date.getMinutes(), 2);
+                        break;
+                    case &#x27;s&#x27;:
+                        output += f1(&#x27;s&#x27;, date.getSeconds(), 2);
+                        break;
+                    case &#x27;a&#x27;:
+                        output += date.getHours() &gt; 11 ? &#x27;pm&#x27; : &#x27;am&#x27;;
+                        break;
+                    case &#x27;A&#x27;:
+                        output += date.getHours() &gt; 11 ? &#x27;PM&#x27; : &#x27;AM&#x27;;
+                        break;
+                    case &quot;&#x27;&quot;:
+                        if (look(&quot;&#x27;&quot;))
+                            output += &quot;&#x27;&quot;;
+                        else
+                            literal = true;
+                        break;
+                    default:
+                        output += format.charAt(i);
+                }
+        }
+        return output;
+    }
+
+    /**
+    * Extract a date from a string value with a specified format.
+    * @param {String} format - Input format.
+    * @param {String} value - String to parse.
+    * @param {Object} settings - Settings.
+    * @return {Date} - Returns the extracted date.
+    */
+    $.scroller.parseDate = function (format, value, settings) {
+        var def = new Date();
+        if (!format || !value) return def;
+        value = (typeof value == &#x27;object&#x27; ? value.toString() : value + &#x27;&#x27;);
+        var s = $.extend({}, defaults, settings),
+            year = def.getFullYear(),
+            month = def.getMonth() + 1,
+            day = def.getDate(),
+            doy = -1,
+            hours = def.getHours(),
+            minutes = def.getMinutes(),
+            seconds = 0, //def.getSeconds(),
+            ampm = -1,
+            literal = false,
+            // Check whether a format character is doubled
+            lookAhead = function(match) {
+                var matches = (iFormat + 1 &lt; format.length &amp;&amp; format.charAt(iFormat + 1) == match);
+                if (matches)
+                    iFormat++;
+                return matches;
+            },
+            // Extract a number from the string value
+            getNumber = function(match) {
+                lookAhead(match);
+                var size = (match == &#x27;@&#x27; ? 14 : (match == &#x27;!&#x27; ? 20 :
+                    (match == &#x27;y&#x27; ? 4 : (match == &#x27;o&#x27; ? 3 : 2))));
+                var digits = new RegExp(&#x27;^\\d{1,&#x27; + size + &#x27;}&#x27;);
+                var num = value.substr(iValue).match(digits);
+                if (!num)
+                    return 0;
+                    //throw &#x27;Missing number at position &#x27; + iValue;
+                iValue += num[0].length;
+                return parseInt(num[0], 10);
+            },
+            // Extract a name from the string value and convert to an index
+            getName = function(match, s, l) {
+                var names = (lookAhead(match) ? l : s);
+                for (var i = 0; i &lt; names.length; i++) {
+                    if (value.substr(iValue, names[i].length).toLowerCase() == names[i].toLowerCase()) {
+                        iValue += names[i].length;
+                        return i + 1;
+                    }
+                }
+                return 0;
+                //throw &#x27;Unknown name at position &#x27; + iValue;
+            },
+            // Confirm that a literal character matches the string value
+            checkLiteral = function() {
+                //if (value.charAt(iValue) != format.charAt(iFormat))
+                    //throw &#x27;Unexpected literal at position &#x27; + iValue;
+                iValue++;
+            },
+            iValue = 0;
+
+        for (var iFormat = 0; iFormat &lt; format.length; iFormat++) {
+            if (literal)
+                if (format.charAt(iFormat) == &quot;&#x27;&quot; &amp;&amp; !lookAhead(&quot;&#x27;&quot;))
+                    literal = false;
+                else
+                    checkLiteral();
+            else
+                switch (format.charAt(iFormat)) {
+                    case &#x27;d&#x27;:
+                        day = getNumber(&#x27;d&#x27;);
+                        break;
+                    case &#x27;D&#x27;:
+                        getName(&#x27;D&#x27;, s.dayNamesShort, s.dayNames);
+                        break;
+                    case &#x27;o&#x27;:
+                        doy = getNumber(&#x27;o&#x27;);
+                        break;
+                    case &#x27;m&#x27;:
+                        month = getNumber(&#x27;m&#x27;);
+                        break;
+                    case &#x27;M&#x27;:
+                        month = getName(&#x27;M&#x27;, s.monthNamesShort, s.monthNames);
+                        break;
+                    case &#x27;y&#x27;:
+                        year = getNumber(&#x27;y&#x27;);
+                        break;
+                    case &#x27;H&#x27;:
+                        hours = getNumber(&#x27;H&#x27;);
+                        break;
+                    case &#x27;h&#x27;:
+                        hours = getNumber(&#x27;h&#x27;);
+                        break;
+                    case &#x27;i&#x27;:
+                        minutes = getNumber(&#x27;i&#x27;);
+                        break;
+                    case &#x27;s&#x27;:
+                        seconds = getNumber(&#x27;s&#x27;);
+                        break;
+                    case &#x27;a&#x27;:
+                        ampm = getName(&#x27;a&#x27;, [&#x27;am&#x27;, &#x27;pm&#x27;], [&#x27;am&#x27;, &#x27;pm&#x27;]) - 1;
+                        break;
+                    case &#x27;A&#x27;:
+                        ampm = getName(&#x27;A&#x27;, [&#x27;am&#x27;, &#x27;pm&#x27;], [&#x27;am&#x27;, &#x27;pm&#x27;]) - 1;
+                        break;
+                    case &quot;&#x27;&quot;:
+                        if (lookAhead(&quot;&#x27;&quot;))
+                            checkLiteral();
+                        else
+                            literal = true;
+                        break;
+                    default:
+                        checkLiteral();
+                }
+        }
+        if (year &lt; 100)
+            year += new Date().getFullYear() - new Date().getFullYear() % 100 +
+                (year &lt;= s.shortYearCutoff ? 0 : -100);
+        if (doy &gt; -1) {
+            month = 1;
+            day = doy;
+            do {
+                var dim = 32 - new Date(year, month - 1, 32).getDate();
+                if (day &lt;= dim)
+                    break;
+                month++;
+                day -= dim;
+            } while (true);
+        }
+        hours = (ampm == -1) ? hours : ((ampm &amp;&amp; hours &lt; 12) ? (hours + 12) : (!ampm &amp;&amp; hours == 12 ? 0 : hours));
+        var date = new Date(year, month - 1, day, hours, minutes, seconds);
+        if (date.getFullYear() != year || date.getMonth() + 1 != month || date.getDate() != day)
+            throw &#x27;Invalid date&#x27;;
+        return date;
+    }
+
+}));
+
+    </pre>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

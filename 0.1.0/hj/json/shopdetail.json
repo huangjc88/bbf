@@ -1,0 +1,63 @@
+{"shopId": 875458633516032, "name": "南京市江宁区贴地飞行汽修中心",
+    "thumbnailImage": "http://image.huijiacn.com/875461677253632.JPG", "score": 0,
+    "shopScore": 0.0, "saleAmount": 0,
+    "address": "江苏省南京市江宁区金盛路37号",
+    "fixedTel": null, "phone": "15195755541", "lng": 118.81731, "lat": 31.967359,
+    "specialSkill": null,
+    "shoptags": [
+    {
+        "tagCode": "rest",
+        "tagName": "女士小孩休息区",
+        "tagDesc": "女士小孩休息区"
+    },
+    {
+        "tagCode": "sunshine",
+        "tagName": "明码实价",
+        "tagDesc": "明码实价"
+    },
+    {
+        "tagCode": "wifi",
+        "tagName": "免费wifi",
+        "tagDesc": "提供免费wifi"
+    }
+], "serviceTime": "08:00-19:00", "serviceAbilityDesc": "洗车，美容，综合汽修", "newEvaluate": null, "catalogs": [
+    {
+        "catalogId": "669970994480132",
+        "catalogCode": "maintain",
+        "catalogName": "保养",
+        "commoditys": []
+    },
+    {
+        "catalogId": "669970994480129",
+        "catalogCode": "repair",
+        "catalogName": "维修",
+        "commoditys": []
+    },
+    {
+        "catalogId": "669970994480130",
+        "catalogCode": "beauty",
+        "catalogName": "美容",
+        "commoditys": []
+    },
+    {
+        "catalogId": "669970994480131",
+        "catalogCode": "clean",
+        "catalogName": "洗车",
+        "commoditys": [
+            {
+                "commodityId": 876679241106432,
+                "skuId": 876679241106433,
+                "commodityName": "贴地飞行小客车洗车优惠券",
+                "commmodityTypeCode": "groupon",
+                "price": 1900
+            },
+            {
+                "commodityId": 876681213477888,
+                "skuId": 876681213477889,
+                "commodityName": "贴地飞行SUV/7座车洗车优惠券",
+                "commmodityTypeCode": "groupon",
+                "price": 2500
+            }
+        ]
+    }
+], "groupon": false, "favorite": false}

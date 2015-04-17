@@ -1,0 +1,12 @@
+<div class="item item-divider app-commodity-shopinfo-divider" id="<%= initial %>">
+    <%= initial %>
+</div>
+<% _.each(cityList, function(cityItem) { %>
+<li class="table-view-cell">
+    <a class="push-right" data-id="<%= cityItem.governmentCode %>">
+        <div class="media-body"><%= cityItem.areaName %></div>
+    </a></li> <% });
+%>
+
+
+

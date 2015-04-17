@@ -1,0 +1,124 @@
+/* CSS Document */
+
+#iOSdialogBoxLockScreen {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAL8AAAC/CAYAAACv6g0GAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjRCNkNCNTI2MkQxMTFFMTgwRUI4MTQ0N0EzMzgwNUIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjRCNkNCNTM2MkQxMTFFMTgwRUI4MTQ0N0EzMzgwNUIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyNEI2Q0I1MDYyRDExMUUxODBFQjgxNDQ3QTMzODA1QiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyNEI2Q0I1MTYyRDExMUUxODBFQjgxNDQ3QTMzODA1QiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PokZEbEAAAGISURBVHja7NJBDQAACMSwC0E40lHBi1bCsk4ygYdKAswP5gfzg/nB/GB+MD+YH8wP5gfzg/nB/GB+MD+YH8wP5gfzg/nB/GB+MD+YH8wP5gfzg/kxP5gfzA/mB/OD+cH8YH4wP5gfzA/mB/OD+cH8YH4wP5gfzA/mB/OD+cH8YH4wP5gfzA/mB/NjfjA/mB/MD+YH84P5wfxgfjA/mB/MD+YH84P5wfxgfjA/mB/MD+YH84P5wfxgfjA/mB/Mj/klwPxgfjA/mB/MD+YH84P5wfxgfjA/mB/MD+YH84P5wfxgfjA/mB/MD+YH84P5wfxgfjA/mB/zg/nB/GB+MD+YH8wP5gfzg/nB/GB+MD+YH8wP5gfzg/nB/GB+MD+YH8wP5gfzg/nB/GB+MD/mB/OD+cH8YH4wP5gfzA/mB/OD+cH8YH4wP5gfzA/mB/OD+cH8YH4wP5gfzA/mB/OD+cH8mF8CzA/mB/OD+cH8YH4wP5gfzA/mB/OD+cH8YH4wP5gfzA/HVgABBgBMOQIBHiWy6AAAAABJRU5ErkJggg==);
+  background-color: #333333;
+  opacity: 0.7;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99998;
+}
+
+#iOSdialogBoxWindow {
+  width: 220px;
+  height: 100px;
+  z-index: 999999;
+  background-size: 100%;
+  background: #fff;
+  position: absolute;
+  /*margin: 0 auto;*/
+  top: 50%;
+  left:0px;
+  right: 0px;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  margin:0 auto;
+  /*margin-left: -200px;*/
+  /*margin-top: -114px;*/
+}
+
+#iOSdialogBoxWindow #iOSdialogBoxWindowTitle {
+  color: #FFF;
+  font-family: "Hiragino Sans GB";
+  font-size: 16px;
+  position: relative;
+  /*margin: 0 auto;*/
+  margin-top: 5px;
+  color: #777;
+  text-align: center;
+}
+
+#iOSdialogBoxWindow #iOSdialogBoxWindowMessage {
+  display: block;
+  font-family: "Hiragino Sans GB";
+  font-size: 14px;
+  height: 40px;
+  color: #f13f2f;
+  position: relative;
+  margin:0 auto;
+  text-align: center;
+}
+
+#iOSdialogBoxWindow #iOSdialogBoxWindowButtons {
+  height: 35px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px; /* left:17px;right:17px; */
+  border-top: 1px solid #ddd;
+}
+
+#iOSdialogBoxWindow #iOSdialogBoxWindowButtons .iOSdialogBoxButton {
+  background-size: 100%;
+  color: #FFF;
+  cursor: pointer;
+  font-family: "Hiragino Sans GB";
+  font-size: 15px;
+  width: 110px;
+  text-align: center;
+  height: 34px;
+}
+
+#iOSdialogBoxWindow #iOSdialogBoxWindowButtons .iOSdialogBoxButton:active {
+  background: #ddd;
+}
+
+#iOSdialogBoxWindow #iOSdialogBoxWindowButtons .iOSdialogBoxButton div {
+  position: relative;
+  bottom:2px;
+  top:5px;
+  width: 50%;
+  margin: 0 auto;
+  color:#145fd7;
+  font-size: 16px;
+}
+
+#iOSdialogBoxWindow #iOSdialogBoxWindowButtons .iOSdialogBoxButton:first-child {
+  border-right:1px solid #ddd ;
+}
+
+#iOSLodingWindow {
+  width: 220px;
+  height: 45px;
+  z-index: 999999;
+  background-size: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0.8;
+  position: absolute;
+  top: 200px;
+  left:0px;
+  right: 0px;
+  border-radius: 10px;
+  text-align: center;
+  margin:0 auto;
+}
+
+#iOSLodingWindow #iOSdialogBoxWindowMessage{
+  display: block;
+  font-family: "Hiragino Sans GB";
+  font-size: 14px;
+  height: 50px;
+  color: #fff;
+  position: absolute;
+  margin:0 auto;
+  top:12px;
+  bottom:0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+}
+

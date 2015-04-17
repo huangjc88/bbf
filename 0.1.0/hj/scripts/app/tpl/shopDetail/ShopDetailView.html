@@ -1,0 +1,56 @@
+<header class="hj-bar stable bar bar-nav" id="hasHeader">
+    <h1 class="title">
+        商家详情
+    </h1>
+    <a class="icon icon-left-nav pull-left"><span style="vertical-align: middle;font-size: 16px;">返回</span></a>
+    <!--<span style="font-size: 16px;line-height: 44px;">返回</span>-->
+</header>
+<div class="content">
+    <div class="table-view-cell media hj-shopDetail-item">
+        <div class="navigate-right hj-shopdetail-item-body">
+            <img class="media-object pull-left" src="<%= thumbnailImage %>">
+            <h2 class="hj-shopdetail-item-name"><%= name %></h2>
+            <div class="hj-shopdetail-item-score">
+                <% for(var i=1;i<=score;i++) { %>
+                <span class="hj-shopdetail-item-body-score icon icon-star-filled assertive"></span>
+                <% };%>
+                <% for(var i=5;i>score;i--) { %>
+                <span class="hj-shopdetail-item-body-score icon icon-star"></span>
+                <% };%>
+            </div>
+            <span class="hj-shopdetail-item-deal">成交0笔</span>
+            <a class="hj-shopdetail-item-fav"><i class="icon icon-heart"></i><br>收藏</a>
+        </div>
+    </div>
+    <div class="hj-shopdetail-menu">
+        <ul>
+            <li>
+                <i class="icon-position"></i>
+                <span class="hj-shopdetail-menu-address"><%= address %></span>
+                <span class="icon icon-right-nav"></span></li>
+            <li style="color:#59b5b2;"><i class="icon-call"></i><%= phone %><span class="icon icon-right-nav"></span></li>
+            <li id="shopServer" data-id="<%= shopId %>">
+                <a style="color: #666;" href="shoplist/detail/#<%= shopId %>/server">
+                    <i class="icon-server"></i>服务详情
+                    <span class="icon icon-right-nav"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <label class="hj-toggle">
+        <input type="checkbox">
+        <div class="track">
+            <div class="handle"></div>
+        </div>
+    </label>
+
+    <form id="testform">
+        <div class="fieldcontain inline">
+            <label for="test">Click here to try</label>
+            <input type="text" name="test" id="test" class="text-input" />
+        </div>
+    </form>
+
+</div>
